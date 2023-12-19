@@ -29,6 +29,7 @@ export class Bmi extends Component {
     }
   }
 
+  // currying - nâng cao
   handleChangeValue = (name) => (event) => {
     if (name === "weight") {
       this.setState({
@@ -45,6 +46,7 @@ export class Bmi extends Component {
     }
   }
 
+  // currying cách viết khác
   handleClick = (weight, height) => {
     const inputWeight = Number(weight)
     const inputHeight = Number(height) / 100
