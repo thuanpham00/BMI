@@ -5,7 +5,7 @@ import Result from "./Result"
 
 const Container = styled.div`
   max-width: 900px;
-  height: 510px;
+  height: 490px;
   margin: 20px auto;
   padding: 10px;
   background-color: #182a4e;
