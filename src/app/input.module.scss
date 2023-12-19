@@ -1,0 +1,20 @@
+.row {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+
+  .text {
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .input {
+    margin: 10px 0;
+    width: 200px;
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 99px;
+    border: 1px solid #fff;
+  }
+}
