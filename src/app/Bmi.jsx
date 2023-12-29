@@ -80,3 +80,8 @@ export default Bmi
 
 // khi click vào nó thực hiện hàm và trả ra setState mới của result
 // và gán nó vào value
+
+/**
+ * Ở đây, handleChangeValue là prop trong Input, và khi nó được gọi,
+ * nó sẽ gọi hàm handleChangeValue trong Bmi và truyền vào giá trị "weight".
+ */
